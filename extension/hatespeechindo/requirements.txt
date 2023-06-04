@@ -9,5 +9,4 @@ boto3
 pillow
 requests
 nltk
-logging
 scikit-learn
