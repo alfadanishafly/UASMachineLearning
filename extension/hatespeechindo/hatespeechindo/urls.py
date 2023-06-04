@@ -17,5 +17,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.check_hatespeech, name='check_hatespeech'),
+    path('api/check_hatespeech/', views.check_hatespeech, name='check_hatespeech'),
 ]
