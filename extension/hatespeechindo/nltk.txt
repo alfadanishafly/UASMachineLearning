@@ -1,2 +1,2 @@
-corpus
-tokenize
+stopwords
+word_tokenize
