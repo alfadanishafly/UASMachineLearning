@@ -10,3 +10,4 @@ pillow
 requests
 nltk
 scikit-learn
+corsheaders
