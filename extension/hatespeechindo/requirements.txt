@@ -10,4 +10,4 @@ pillow
 requests
 nltk
 scikit-learn
-corsheaders
+django-cors-headers
