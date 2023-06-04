@@ -9,7 +9,5 @@ boto3
 pillow
 requests
 nltk
-cors
-header
 logging
 scikit-learn
