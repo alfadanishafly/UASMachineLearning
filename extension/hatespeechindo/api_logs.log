@@ -1,0 +1,150 @@
+Watching for file changes with StatReloader
+C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/check_hatespeech/
+Traceback (most recent call last):
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 22, in check_hatespeech
+    is_hatespeech = check_with_machine_learning(data)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 36, in check_with_machine_learning
+    processed_text = preprocess_text(text)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 58, in preprocess_text
+    processed_tokens = replace_slang(lowercase_tokens)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 74, in replace_slang
+    slang_word, expanded_word = line.split(':')
+ValueError: too many values to unpack (expected 2)
+C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Processed Text: 
+Internal Server Error: /api/check_hatespeech/
+Traceback (most recent call last):
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 22, in check_hatespeech
+    is_hatespeech = check_with_machine_learning(data)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 40, in check_with_machine_learning
+    prediction = model.predict([processed_text])
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\svm\_base.py", line 810, in predict
+    y = super().predict(X)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\svm\_base.py", line 433, in predict
+    X = self._validate_for_predict(X)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\svm\_base.py", line 611, in _validate_for_predict
+    X = self._validate_data(
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\base.py", line 577, in _validate_data
+    X = check_array(X, input_name="X", **check_params)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\utils\validation.py", line 856, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+ValueError: could not convert string to float: ''
+C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Processed Text: 
+Processed Text: 
+Internal Server Error: /api/check_hatespeech/
+Traceback (most recent call last):
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 22, in check_hatespeech
+    is_hatespeech = check_with_machine_learning(data)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 40, in check_with_machine_learning
+    prediction = model.predict([processed_text])
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\svm\_base.py", line 810, in predict
+    y = super().predict(X)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\svm\_base.py", line 433, in predict
+    X = self._validate_for_predict(X)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\svm\_base.py", line 611, in _validate_for_predict
+    X = self._validate_data(
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\base.py", line 577, in _validate_data
+    X = check_array(X, input_name="X", **check_params)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\utils\validation.py", line 856, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+ValueError: could not convert string to float: ''
+C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py changed, reloading.
+Watching for file changes with StatReloader
+Processed Text: 
+Processed Text: 
+Internal Server Error: /api/check_hatespeech/
+Traceback (most recent call last):
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 22, in check_hatespeech
+    is_hatespeech, processed_text = check_with_machine_learning(data)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 42, in check_with_machine_learning
+    prediction = model.predict([processed_text])
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\svm\_base.py", line 810, in predict
+    y = super().predict(X)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\svm\_base.py", line 433, in predict
+    X = self._validate_for_predict(X)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\svm\_base.py", line 611, in _validate_for_predict
+    X = self._validate_data(
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\base.py", line 577, in _validate_data
+    X = check_array(X, input_name="X", **check_params)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\utils\validation.py", line 856, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+ValueError: could not convert string to float: ''
+C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py changed, reloading.
+Watching for file changes with StatReloader
+Processed Text: 
+Processed Text: 
+Internal Server Error: /api/check_hatespeech/
+Traceback (most recent call last):
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 22, in check_hatespeech
+    is_hatespeech = check_with_machine_learning(data)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 40, in check_with_machine_learning
+    prediction = model.predict([processed_text])
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\svm\_base.py", line 810, in predict
+    y = super().predict(X)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\svm\_base.py", line 433, in predict
+    X = self._validate_for_predict(X)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\svm\_base.py", line 611, in _validate_for_predict
+    X = self._validate_data(
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\base.py", line 577, in _validate_data
+    X = check_array(X, input_name="X", **check_params)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\sklearn\utils\validation.py", line 856, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+ValueError: could not convert string to float: ''
+C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/check_hatespeech/
+Traceback (most recent call last):
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\BAJUR\AppData\Roaming\Python\Python310\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 22, in check_hatespeech
+    is_hatespeech = check_with_machine_learning(data)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 36, in check_with_machine_learning
+    processed_text = preprocess_text(text)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 58, in preprocess_text
+    processed_tokens = replace_slang(lowercase_tokens)
+  File "C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\views.py", line 74, in replace_slang
+    slang_word, expanded_word = line.split(':')
+ValueError: too many values to unpack (expected 2)
+C:\Users\BAJUR\Downloads\extension\extension\hatespeechindo\hatespeechindo\settings.py changed, reloading.

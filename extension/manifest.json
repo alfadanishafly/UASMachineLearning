@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Censorship Extension",
+  "version": "1.0",
+  "description": "Chrome extension to censor specific words from website content",
+  "permissions": [
+      "scripting",
+      "webRequest",
+      "webRequestBlocking"
+  ],
+  "host_permissions": ["<all_urls>",
+  "http://*/*",
+  "https://*/*",
+  "http://localhost:8000/api/check_hatespeech/"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ]
+}
